@@ -53,9 +53,10 @@
             {
                 Label = "Value",
                 Data = BarSimpleData.SimpleBar.Select(l => l.Value).ToList(),
-                BackgroundColor = Colors.Palette1,
-                BorderColor = Colors.PaletteBorder1,
+                BackgroundColor =ChartjsExercise.Model.Colors.Palette1,
+                BorderColor = ChartjsExercise.Model.Colors.PaletteBorder1,
                 BorderWidth = 1
             });
+        await Task.CompletedTask;
     }
 }

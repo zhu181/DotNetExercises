@@ -20,12 +20,13 @@
             {
                 Label = "数据集",
                 Data = LineSimpleData.SimpleLine.ToList(),
-                BorderColor = Colors.PaletteBorder1.FirstOrDefault(),
+                BorderColor = ChartjsExercise.Model.Colors.PaletteBorder1.FirstOrDefault(),
                 Tension = 0.1M,
                 Fill = false,
                 PointRadius = 15,
                 PointStyle = PointStyle.Cross
             });
+        await Task.CompletedTask;
     }
 
     private void AddValue()
